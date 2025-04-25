@@ -9,3 +9,7 @@ header, nav, main {
     $x: calc($i / 12) * 100%;
     .large-#{$i} { flex-basis: $x; }
 }
+
+.phone-row {
+    gap: 0;
+}

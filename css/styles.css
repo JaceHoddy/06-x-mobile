@@ -325,6 +325,10 @@ main img {
   height: auto;
 }
 
+main h1 {
+  margin: 4px;
+}
+
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
   border-bottom: 1px solid #ccc;
@@ -407,12 +411,22 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 100%;
+  margin: 0 10px;
+  margin-bottom: 20px;
+  gap: 8px;
+}
+
+.pros-cons h3 {
+  margin: 0;
+}
+.pros-cons div {
+  margin-bottom: 30px;
 }
 
 .phone-row {
   background-color: #eee;
+  justify-content: space-around;
 }
 
 .small-1 {
@@ -616,5 +630,8 @@ footer a {
   }
   .large-12 {
     flex-basis: 100%;
+  }
+  .phone-row {
+    gap: 0;
   }
 }
